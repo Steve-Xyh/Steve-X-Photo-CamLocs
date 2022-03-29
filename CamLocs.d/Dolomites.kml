@@ -2,31 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Dolomites.kml</name>
-	<Style id="listing_A">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-			<text>$[description]</text>
-		</BalloonStyle>
-		<LineStyle>
-			<color>00ffffff</color>
-		</LineStyle>
-	</Style>
-	<StyleMap id="listing_A0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#listing_A1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#listing_A</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="listing_A1">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -42,29 +17,23 @@
 			<color>00ffffff</color>
 		</LineStyle>
 	</Style>
-	<Style id="style">
+	<Style id="listing_A">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>1.1</scale>
 			<Icon>
-				<href>https://mw1.google.com/mw-earth-vectordb/gps_photos/gps_photos_small_2x.png</href>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<BalloonStyle>
-			<text><![CDATA[<html lang="zh-CN"> <head> <style>@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');@import url('https://fonts.googleapis.com/css?family=Product+Sans');html{font-family:'Roboto','Noto',sans-serif;font-size:14px;font-weight:400;color:#202124}html,body{margin:0;padding:0 8px 8px 8px}h1{font-size:16px;font-weight:500}h2{font-size:16px;font-weight:500}a{text-decoration:none;color:#1a73e8;cursor:pointer}button{border:none;outline:none;text-transform:uppercase;font-weight:500;color:#1a73e8;background-color:transparent;margin:0;padding:10px 8px;border-radius:2px}button:hover{background-color:rgba(112,117,122,.1)}button:active{background-color:rgba(112,117,122,.2)}.skIXFc{margin-bottom:8px}.HaIiLe,.VVrlod{display:inline-block}.HaIiLe{width:74px;height:24px;background-image:url(https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_dark_color_74x24dp.png);opacity:0.54;background-size:74px 24px}.VVrlod{font-family:'Product Sans',Arial,Helvetica,sans-serif;font-size:22.1px;text-rendering:optimizeLegibility;position:relative;top:-6px;left:-5px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.uuco4b{opacity:0.54}@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi){.HaIiLe{background-image:url(https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_dark_color_74x24dp.png)}.VVrlod{font-size:21.3px;left:-7px}}.image{display:table;position:relative;border-right:16px solid #fff}.YLEF4c{width:32px;height:32px;border-radius:100%}.lRgKib{position:absolute;box-sizing:border-box;width:100%;bottom:0;padding:8px;color:#fff;background:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,.3) 35%,rgba(0,0,0,.6) 50%);font-size:12px}.giiMnc{text-decoration:none;color:#fff}.giiMnc>*{vertical-align:middle}.UEEXwc{margin-top:8px}.UEEXwc a{color:#4285f4}.F3jWbb{float:right}.explanation>h2,.explanation>p{margin:16px}.explanation>button{float:right;margin:8px}#GLOBAL__earthkmlballoon_explanationTrigger{float:right}#GLOBAL__earthkmlballoon_expando>.explanation{height:0;overflow:hidden;box-sizing:border-box;background-color:#f8f9fa}#GLOBAL__earthkmlballoon_expando.GLOBAL__earthkmlballoon_expanded>#GLOBAL__earthkmlballoon_explanationTrigger{display:none}#GLOBAL__earthkmlballoon_expando.GLOBAL__earthkmlballoon_expanded>.explanation{height:auto}#GLOBAL__earthkmlballoon_resizeFrame{display:none}</style> <meta content="width=device-width, initial-scale=1" name="viewport"> </head> <body> <div class="skIXFc"> <span class="HaIiLe"></span> <span class="VVrlod"> <span class="uuco4b">&nbsp;Earth</span> </span> </div> <div class="image"> <a href="$[sourceUri]" target="_blank"> <img src="$[uri]" height="360" alt="$[title]" width="$[width]"> </a> <div class="lRgKib"> <a class="giiMnc" href="$[accountUri]"> <img class="YLEF4c" src="$[accountThumbnailUri]" alt="$[accountName]"> <span>$[accountName]</span> </a> <div class="UEEXwc"> <span>$[copyrightText]</span> <a class="F3jWbb" href="$[takedownUri]"> <span>报告问题</span> </a> </div> </div> </div> <h1>$[title]</h1> <div id="GLOBAL__earthkmlballoon_expando"> <a href="https://www.panoramio.com/" id="GLOBAL__earthkmlballoon_explanationTrigger">过去的照片图层在哪里？ </a> <div class="explanation" style="width:0"> <h2>过去的照片图层在哪里？</h2> <p>以前的照片图层来自 Panoramio，已于 2017 年 11 月停止服务。此新图层将使用 Google 地图提供的图片。 </p><p>我们衷心感谢 Panoramio 用户过去这些年来分享了许多精美图片，也感谢很多 Panoramio 用户愿意将自己的照片迁移到新系统。希望您在发现误放或质量不佳的照片时点击<a href="$[takedownUri]">报告问题</a>告诉我们，以便帮助我们提供更好的新图层。 </p><p>如果您使用 Chrome、iOS 或 Android，还可以试试<a href="https://earth.google.com/web" target="_blank">新版 Google 地球</a>，享受更优质的照片体验。 </p> <button id="GLOBAL__earthkmlballoon_gotItButton">知道了 </button> <button id="GLOBAL__earthkmlballoon_tryEarthButton">试试新版 Google 地球 </button> </div> </div> <iframe src="about:blank" id="GLOBAL__earthkmlballoon_resizeFrame"></iframe> <script nonce="B5jc9/bDREc3Qq8rz/+Cfw==">function toggleExpando(){document.getElementById('earthkmlballoon_expando').classList.toggle('earthkmlballoon_expanded');document.getElementById('earthkmlballoon_resizeFrame').contentDocument.location.reload();}
-function tryNewEarth(){window.open('https://earth.google.com/web','_blank');}
-document.getElementById('earthkmlballoon_explanationTrigger').addEventListener('click',toggleExpando);document.getElementById('earthkmlballoon_gotItButton').addEventListener('click',toggleExpando);document.getElementById('earthkmlballoon_tryEarthButton').addEventListener('click',tryNewEarth);</script> </body> </html>]]></text>
+			<text>$[description]</text>
 		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
 	</Style>
-	<StyleMap id="photoStyle">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style0</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="style0">
 		<IconStyle>
 			<scale>0.6</scale>
@@ -78,6 +47,81 @@ function tryNewEarth(){window.open('https://earth.google.com/web','_blank');}
 document.getElementById('earthkmlballoon_explanationTrigger').addEventListener('click',toggleExpando);document.getElementById('earthkmlballoon_gotItButton').addEventListener('click',toggleExpando);document.getElementById('earthkmlballoon_tryEarthButton').addEventListener('click',tryNewEarth);</script> </body> </html>]]></text>
 		</BalloonStyle>
 	</Style>
+	<StyleMap id="listing_A0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#listing_A</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#listing_A3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="photoStyle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>https://mw1.google.com/mw-earth-vectordb/gps_photos/gps_photos_small_2x.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<html lang="zh-CN"> <head> <style>@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');@import url('https://fonts.googleapis.com/css?family=Product+Sans');html{font-family:'Roboto','Noto',sans-serif;font-size:14px;font-weight:400;color:#202124}html,body{margin:0;padding:0 8px 8px 8px}h1{font-size:16px;font-weight:500}h2{font-size:16px;font-weight:500}a{text-decoration:none;color:#1a73e8;cursor:pointer}button{border:none;outline:none;text-transform:uppercase;font-weight:500;color:#1a73e8;background-color:transparent;margin:0;padding:10px 8px;border-radius:2px}button:hover{background-color:rgba(112,117,122,.1)}button:active{background-color:rgba(112,117,122,.2)}.skIXFc{margin-bottom:8px}.HaIiLe,.VVrlod{display:inline-block}.HaIiLe{width:74px;height:24px;background-image:url(https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_dark_color_74x24dp.png);opacity:0.54;background-size:74px 24px}.VVrlod{font-family:'Product Sans',Arial,Helvetica,sans-serif;font-size:22.1px;text-rendering:optimizeLegibility;position:relative;top:-6px;left:-5px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.uuco4b{opacity:0.54}@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi){.HaIiLe{background-image:url(https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_dark_color_74x24dp.png)}.VVrlod{font-size:21.3px;left:-7px}}.image{display:table;position:relative;border-right:16px solid #fff}.YLEF4c{width:32px;height:32px;border-radius:100%}.lRgKib{position:absolute;box-sizing:border-box;width:100%;bottom:0;padding:8px;color:#fff;background:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,.3) 35%,rgba(0,0,0,.6) 50%);font-size:12px}.giiMnc{text-decoration:none;color:#fff}.giiMnc>*{vertical-align:middle}.UEEXwc{margin-top:8px}.UEEXwc a{color:#4285f4}.F3jWbb{float:right}.explanation>h2,.explanation>p{margin:16px}.explanation>button{float:right;margin:8px}#GLOBAL__earthkmlballoon_explanationTrigger{float:right}#GLOBAL__earthkmlballoon_expando>.explanation{height:0;overflow:hidden;box-sizing:border-box;background-color:#f8f9fa}#GLOBAL__earthkmlballoon_expando.GLOBAL__earthkmlballoon_expanded>#GLOBAL__earthkmlballoon_explanationTrigger{display:none}#GLOBAL__earthkmlballoon_expando.GLOBAL__earthkmlballoon_expanded>.explanation{height:auto}#GLOBAL__earthkmlballoon_resizeFrame{display:none}</style> <meta content="width=device-width, initial-scale=1" name="viewport"> </head> <body> <div class="skIXFc"> <span class="HaIiLe"></span> <span class="VVrlod"> <span class="uuco4b">&nbsp;Earth</span> </span> </div> <div class="image"> <a href="$[sourceUri]" target="_blank"> <img src="$[uri]" height="360" alt="$[title]" width="$[width]"> </a> <div class="lRgKib"> <a class="giiMnc" href="$[accountUri]"> <img class="YLEF4c" src="$[accountThumbnailUri]" alt="$[accountName]"> <span>$[accountName]</span> </a> <div class="UEEXwc"> <span>$[copyrightText]</span> <a class="F3jWbb" href="$[takedownUri]"> <span>报告问题</span> </a> </div> </div> </div> <h1>$[title]</h1> <div id="GLOBAL__earthkmlballoon_expando"> <a href="https://www.panoramio.com/" id="GLOBAL__earthkmlballoon_explanationTrigger">过去的照片图层在哪里？ </a> <div class="explanation" style="width:0"> <h2>过去的照片图层在哪里？</h2> <p>以前的照片图层来自 Panoramio，已于 2017 年 11 月停止服务。此新图层将使用 Google 地图提供的图片。 </p><p>我们衷心感谢 Panoramio 用户过去这些年来分享了许多精美图片，也感谢很多 Panoramio 用户愿意将自己的照片迁移到新系统。希望您在发现误放或质量不佳的照片时点击<a href="$[takedownUri]">报告问题</a>告诉我们，以便帮助我们提供更好的新图层。 </p><p>如果您使用 Chrome、iOS 或 Android，还可以试试<a href="https://earth.google.com/web" target="_blank">新版 Google 地球</a>，享受更优质的照片体验。 </p> <button id="GLOBAL__earthkmlballoon_gotItButton">知道了 </button> <button id="GLOBAL__earthkmlballoon_tryEarthButton">试试新版 Google 地球 </button> </div> </div> <iframe src="about:blank" id="GLOBAL__earthkmlballoon_resizeFrame"></iframe> <script nonce="B5jc9/bDREc3Qq8rz/+Cfw==">function toggleExpando(){document.getElementById('earthkmlballoon_expando').classList.toggle('earthkmlballoon_expanded');document.getElementById('earthkmlballoon_resizeFrame').contentDocument.location.reload();}
+function tryNewEarth(){window.open('https://earth.google.com/web','_blank');}
+document.getElementById('earthkmlballoon_explanationTrigger').addEventListener('click',toggleExpando);document.getElementById('earthkmlballoon_gotItButton').addEventListener('click',toggleExpando);document.getElementById('earthkmlballoon_tryEarthButton').addEventListener('click',tryNewEarth);</script> </body> </html>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="listing_A2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="listing_A3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="listing_A00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#listing_A1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#listing_A2</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder>
 		<name>多洛米蒂Dolomites</name>
 		<open>1</open>
@@ -177,7 +221,7 @@ document.getElementById('earthkmlballoon_explanationTrigger').addEventListener('
 			<address>Magdalenaweg, 39040 Santa Maddalena Alta BZ, 意大利</address>
 			<snippet>Magdalenaweg, 39040 Santa Maddalena Alta BZ, 意大利</snippet>
 			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=46.573286599999996&lng=11.548317899999999&fid=0x47781104ccf27bed:0x9188908b1ce34d6d&hl=zh-CN&gl=cn&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Macintosh;Mac OS X (10.16.0);zh-Hans;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
-			<styleUrl>#listing_A</styleUrl>
+			<styleUrl>#listing_A2</styleUrl>
 			<ExtendedData>
 				<Data name="placepageUri">
 					<value>https://www.google.com/earth/rpc/entity?lat=46.573286599999996&amp;lng=11.548317899999999&amp;fid=0x47781104ccf27bed:0x9188908b1ce34d6d&amp;hl=zh-CN&amp;gl=cn&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Macintosh;Mac OS X (10.16.0);zh-Hans;kml:2.2;client:Pro;type:default)</value>
@@ -228,7 +272,7 @@ document.getElementById('earthkmlballoon_explanationTrigger').addEventListener('
 			<address>S. Giovanni, 2, 39040 Funes BZ, 意大利</address>
 			<snippet>S. Giovanni, 2, 39040 Funes BZ, 意大利</snippet>
 			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=46.6354&lng=11.7243&fid=0x47781114373f1245:0x9dec8073e95cda82&hl=zh-CN&gl=cn&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Macintosh;Mac OS X (10.16.0);zh-Hans;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
-			<styleUrl>#listing_A0</styleUrl>
+			<styleUrl>#listing_A00</styleUrl>
 			<ExtendedData>
 				<Data name="placepageUri">
 					<value>https://www.google.com/earth/rpc/entity?lat=46.6354&amp;lng=11.7243&amp;fid=0x47781114373f1245:0x9dec8073e95cda82&amp;hl=zh-CN&amp;gl=cn&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Macintosh;Mac OS X (10.16.0);zh-Hans;kml:2.2;client:Pro;type:default)</value>
@@ -237,6 +281,29 @@ document.getElementById('earthkmlballoon_explanationTrigger').addEventListener('
 			<Point>
 				<coordinates>11.7243817,46.63508740000001,0</coordinates>
 			</Point>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>多洛米蒂-LUMEN - Museum of Mountain Photography[cam][loc]</name>
+			<address>Kronplatz 11, 39031 Riscone BZ, 意大利</address>
+			<phoneNumber>+39 0474 431090</phoneNumber>
+			<snippet>Kronplatz 11, 39031 Riscone BZ, 意大利</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=46.7406806&lng=11.955821700000001&fid=0x477821ded92ea1a5:0xbeb6da8e5bb44b79&hl=zh-CN&gl=cn&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Macintosh;Mac OS X (10.16.0);zh-Hans;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#listing_A0</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=46.7406806&amp;lng=11.955821700000001&amp;fid=0x477821ded92ea1a5:0xbeb6da8e5bb44b79&amp;hl=zh-CN&amp;gl=cn&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Macintosh;Mac OS X (10.16.0);zh-Hans;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>11.9558217,46.7406806,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						11.9543224782347,46.73955618367599,0 11.9543224782347,46.74180501632399,0 11.9573209217653,46.74180501632399,0 11.9573209217653,46.73955618367599,0 11.9543224782347,46.73955618367599,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
 		</Placemark>
 	</Folder>
 </Document>
