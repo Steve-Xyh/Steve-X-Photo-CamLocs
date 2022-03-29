@@ -1,0 +1,35 @@
+# General:
+**/*.doc
+**/*.docx
+**/*.xls
+**/*.xlsx
+**/*.ppt
+**/*.pptx
+**/*.log
+**/.DS_Store
+**/__pycache__/
+
+# VS Code:
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# Django stuff:
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Google Earth
+tmp/*
+!tmp/.gitkeep
+myplaces.*
+testtmp.*
+
+# Exception:
+!**/*.md
+!**/*.png
+!**/*.jpg
