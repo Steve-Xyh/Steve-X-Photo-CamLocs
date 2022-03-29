@@ -1,0 +1,160 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.72554501795577,
+          46.6003049872189,
+          0
+        ]
+      },
+      "properties": {
+        "name": "多洛米蒂-Seceda[cam]",
+        "styleUrl": "#photoStyle",
+        "styleHash": "53bdbae6",
+        "styleMapHash": {
+          "normal": "#style",
+          "highlight": "#style0"
+        },
+        "uri": "https://lh5.googleusercontent.com/p/AF1QipOVzYwcMXv2OSOARlxO8iow5tylM_9Gop8Up4t3=h720",
+        "title": "Le Odle (dalla Seceda)",
+        "accountName": "Marco Sartori",
+        "accountUri": "https://maps.google.com/maps/contrib/107690398353963867939",
+        "accountThumbnailUri": "https://lh3.googleusercontent.com/a/AATXAJyCpMdc5GCSBRpgJI2kV2z-AUFpsq2fvsqDiDOc=s100-p-k-no-mo",
+        "copyrightText": "Images may be subject to copyright.",
+        "sourceUri": "https://lh5.googleusercontent.com/p/AF1QipOVzYwcMXv2OSOARlxO8iow5tylM_9Gop8Up4t3=h1440",
+        "takedownUri": "https://www.google.com/local/imagery/report/?cb_client=earth.photo&image_key=!1e10!2sAF1QipOVzYwcMXv2OSOARlxO8iow5tylM_9Gop8Up4t3&hl=zh-hans&gl=GB",
+        "width": "533"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9546865,
+          46.73742720000001,
+          0
+        ]
+      },
+      "properties": {
+        "name": "多洛米蒂-博物馆MMM Corones[cam][loc]",
+        "address": "Plan de Corones, 39030 Marebbe BZ, 意大利",
+        "styleUrl": "#listing_C",
+        "description": "<!DOCTYPE html><html><head></head><body><script type=\"text/javascript\">window.location.href=\"https://www.google.com/earth/rpc/entity?lat=46.63734055&lng=11.267022549999998&fid=0x477823d135d0de57:0x2ca0f8d97a30d0db&hl=zh-CN&gl=cn&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Macintosh;Mac OS X (10.16.0);zh-Hans;kml:2.2;client:Pro;type:default)\";</script></body></html>",
+        "placepageUri": "https://www.google.com/earth/rpc/entity?lat=46.63734055&lng=11.267022549999998&fid=0x477823d135d0de57:0x2ca0f8d97a30d0db&hl=zh-CN&gl=cn&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Macintosh;Mac OS X (10.16.0);zh-Hans;kml:2.2;client:Pro;type:default)"
+      },
+      "id": "1.4.1"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.71560597339251,
+          46.64859999493389,
+          0
+        ]
+      },
+      "properties": {
+        "name": "多洛米蒂-Chiesa di Santa Maddalena[cam]",
+        "styleUrl": "#photoStyle",
+        "styleHash": "53bdbae6",
+        "styleMapHash": {
+          "normal": "#style",
+          "highlight": "#style0"
+        },
+        "description": "<img src=\"https://lh5.googleusercontent.com/p/AF1QipPhzLDuSWvdKcexOY7WnRpNXhQ7__HZqwrz7_Io=w408-h306-k-no\">",
+        "uri": "https://lh5.googleusercontent.com/p/AF1QipNYJ84m47oh8kMA89eohfBu7SyJTjz1GG6mhASC=h720",
+        "title": "Geisler Mountains, St Magdalena, Villnösstal",
+        "accountName": "Nick Gent",
+        "accountUri": "https://maps.google.com/maps/contrib/106185150492601585705",
+        "accountThumbnailUri": "https://lh3.googleusercontent.com/a-/AOh14GgTSXhATPfv3DtPOvjoZBEMObOoqPUQ1fbeeojZYQU=s100-p-k-no-mo",
+        "copyrightText": "Images may be subject to copyright.",
+        "sourceUri": "https://lh5.googleusercontent.com/p/AF1QipNYJ84m47oh8kMA89eohfBu7SyJTjz1GG6mhASC=h1440",
+        "takedownUri": "https://www.google.com/local/imagery/report/?cb_client=earth.photo&image_key=!1e10!2sAF1QipNYJ84m47oh8kMA89eohfBu7SyJTjz1GG6mhASC&hl=zh-hans&gl=GB",
+        "width": "540"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7194318,
+          46.64470229999999,
+          0
+        ]
+      },
+      "properties": {
+        "name": "多洛米蒂-Chiesa di Santa Maddalena[loc]",
+        "address": "Magdalenaweg, 39040 Santa Maddalena Alta BZ, 意大利",
+        "styleUrl": "#listing_A",
+        "styleHash": "-643db042",
+        "description": "<!DOCTYPE html><html><head></head><body><script type=\"text/javascript\">window.location.href=\"https://www.google.com/earth/rpc/entity?lat=46.573286599999996&lng=11.548317899999999&fid=0x47781104ccf27bed:0x9188908b1ce34d6d&hl=zh-CN&gl=cn&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Macintosh;Mac OS X (10.16.0);zh-Hans;kml:2.2;client:Pro;type:default)\";</script></body></html>",
+        "stroke": "#ffffff",
+        "stroke-opacity": 0,
+        "placepageUri": "https://www.google.com/earth/rpc/entity?lat=46.573286599999996&lng=11.548317899999999&fid=0x47781104ccf27bed:0x9188908b1ce34d6d&hl=zh-CN&gl=cn&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Macintosh;Mac OS X (10.16.0);zh-Hans;kml:2.2;client:Pro;type:default)"
+      },
+      "id": "1.2.1"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.72239096653331,
+          46.63616996932609,
+          0
+        ]
+      },
+      "properties": {
+        "name": "多洛米蒂-St. John Church[cam]",
+        "styleUrl": "#photoStyle",
+        "styleHash": "53bdbae6",
+        "styleMapHash": {
+          "normal": "#style",
+          "highlight": "#style0"
+        },
+        "uri": "https://lh5.googleusercontent.com/p/AF1QipM6vRCj7H0MK-TcCYLmIqyGmE9Xmh0U4j8P7e8U=h720",
+        "title": "Santa Maddalena Val di Funes - Chiesetta di San Giovanni in Ranui - 4 Ottobre 2014",
+        "accountName": "Oriano Ghirardelli",
+        "accountUri": "https://maps.google.com/maps/contrib/116026120259297426788",
+        "accountThumbnailUri": "https://lh3.googleusercontent.com/a-/AOh14GgAakBAoWDjfoseRI6vrqYNHoO7B48HbMKq9jq4Kg=s100-p-k-no-mo",
+        "copyrightText": "Images may be subject to copyright.",
+        "sourceUri": "https://lh5.googleusercontent.com/p/AF1QipM6vRCj7H0MK-TcCYLmIqyGmE9Xmh0U4j8P7e8U=h1440",
+        "takedownUri": "https://www.google.com/local/imagery/report/?cb_client=earth.photo&image_key=!1e10!2sAF1QipM6vRCj7H0MK-TcCYLmIqyGmE9Xmh0U4j8P7e8U&hl=zh-hans&gl=GB",
+        "width": "540"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7243817,
+          46.63508740000001,
+          0
+        ]
+      },
+      "properties": {
+        "name": "多洛米蒂-St. John Church[loc]",
+        "address": "S. Giovanni, 2, 39040 Funes BZ, 意大利",
+        "styleUrl": "#listing_A0",
+        "styleHash": "37be52c1",
+        "styleMapHash": {
+          "normal": "#listing_A1",
+          "highlight": "#listing_A"
+        },
+        "description": "<!DOCTYPE html><html><head></head><body><script type=\"text/javascript\">window.location.href=\"https://www.google.com/earth/rpc/entity?lat=46.6354&lng=11.7243&fid=0x47781114373f1245:0x9dec8073e95cda82&hl=zh-CN&gl=cn&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Macintosh;Mac OS X (10.16.0);zh-Hans;kml:2.2;client:Pro;type:default)\";</script></body></html>",
+        "stroke": "#ffffff",
+        "stroke-opacity": 0,
+        "placepageUri": "https://www.google.com/earth/rpc/entity?lat=46.6354&lng=11.7243&fid=0x47781114373f1245:0x9dec8073e95cda82&hl=zh-CN&gl=cn&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Macintosh;Mac OS X (10.16.0);zh-Hans;kml:2.2;client:Pro;type:default)"
+      },
+      "id": "1.2.1"
+    }
+  ]
+}
